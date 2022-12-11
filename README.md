@@ -51,7 +51,49 @@ When the process is done, the following screen will appear. Then you can remove 
 
 ![image](https://user-images.githubusercontent.com/58916022/206916945-2fe91646-2e84-4017-a6c6-2324c4ce350c.png)
 
+## Preparing Raspberry PI for use
 
+## Installing AnyDesk
 
+Download [AnyDesk](https://anydesk.com/pt/downloads/linux) installer for linux, copy the file to a USB pen drive and then connect it to the Rasp. Or, copy the AnyDesk installer ('/home/pi/outros'folder, file: anydesk_6.1.1-1armhf.deb) from current image to the new one. Start the installation.
 
+![image](https://user-images.githubusercontent.com/58916022/206922915-d6e95ded-8476-4339-8e5a-05daf08d6536.png)
+
+Authentication is necessary. If you do not set any passwork, check next topic to see how to set a new password. Type the password for authentication and waits until the instalation is finished.
+
+![image](https://user-images.githubusercontent.com/58916022/206923049-4ea0fe71-7616-487e-ac34-ccb7ea956b61.png)
+
+Now, the AnyDesk software will be installed and available to use. To open the software, just click on the AnyDesk icon (top-right border os the screen).
+
+![image](https://user-images.githubusercontent.com/58916022/206923907-8fc9ff43-5906-400f-83f2-2e69e8cb3450.png)
+
+Now AnyDesk is ready to be used.
+
+![image](https://user-images.githubusercontent.com/58916022/206923937-a0a37353-da19-4cff-8fc7-ae2e140c531b.png)
+
+## Add a password to the Raspberry Pi
+
+To add a password to the Raspberry Pi, open the Terminal and type: 'sudo rasp-config'.
+
+![image](https://user-images.githubusercontent.com/58916022/206923128-fd5ca3bf-a5c0-4a09-af1d-a9bfccf1274e.png)
+
+Go to '1 System Options'.
+
+![image](https://user-images.githubusercontent.com/58916022/206923214-cd877a37-eadd-4d2f-899a-2ab6f1f4ef45.png)
+
+Go to 'S3 Password'.
+
+![image](https://user-images.githubusercontent.com/58916022/206923256-d1d4887d-6f0c-484f-a22e-7c3a968b524a.png)
+
+Click 'Ok'.
+
+![image](https://user-images.githubusercontent.com/58916022/206923289-e15d12eb-6633-42b3-8f01-53d7309e8cb2.png)
+
+Type the password.
+
+![image](https://user-images.githubusercontent.com/58916022/206923328-f294f94d-f9b0-4d93-86cf-d1811eaf719d.png)
+
+Click 'Ok' and close the Terminal.
+
+![image](https://user-images.githubusercontent.com/58916022/206923362-b6f58953-369c-442a-96eb-b5e56f8697c8.png)
 
