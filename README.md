@@ -47,6 +47,9 @@ Just wait until the writing is done.
 
 ![image](https://user-images.githubusercontent.com/58916022/206916297-fc7c2832-a381-45ef-be5f-f4bfc6408976.png)
 
+When the process is done, the following screen will appear. Then you can remove the SD card from USB adapter and install the SD card in the Raspberry PI.
+
+![image](https://user-images.githubusercontent.com/58916022/206916945-2fe91646-2e84-4017-a6c6-2324c4ce350c.png)
 
 
 
