@@ -53,6 +53,11 @@ When the process is done, the following screen will appear. Then you can remove 
 
 ## Preparing Raspberry PI for use
 
+A few packages needed to be installed. 
+
+After the installation proccess is complete, open the Command Prompt and run a 'pip install serial'. The serial is used by '1_Python_MoT_Requisição.py'.
+
+
 ## Installing AnyDesk
 
 Download [AnyDesk](https://anydesk.com/pt/downloads/linux) installer for linux, copy the file to a USB pen drive and then connect it to the Rasp. Or, copy the AnyDesk installer ('/home/pi/outros'folder, file: anydesk_6.1.1-1armhf.deb) from current image to the new one. Start the installation.
